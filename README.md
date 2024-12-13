@@ -1,10 +1,20 @@
 <h1 align="center">Crypto Care</h1>
 
-<p align="center">A decentralized donation platform that enables users to support charitable organizations using cryptocurrency.</p>
+<p align="center">A decentralized donation platform that enables users to support charitable organizations using cryptocurrency on Base network.</p>
 
 ## Overview
 
-Crypto Care is a web3 application built with OnchainKit that allows users to make cryptocurrency donations to various charitable organizations. The platform can support organizations like Red Cross, UNICEF, and others, enabling transparent and direct crypto donations.
+Crypto Care is a web3 application built with OnchainKit that allows users to make cryptocurrency donations to various charitable organizations. The platform can support organizations like Red Cross, UNICEF, and others, enabling transparent and direct crypto donations. It bridges the gap between charitable organizations and cryptocurrency donors. Built on Base network (Coinbase's L2 solution), it provides a seamless, low-fee platform for making cryptocurrency donations to verified charitable organizations.
+
+## Screenshots
+
+### Home Page
+![Home Page](docs/home.png)
+*Main dashboard showing available charitable organizations*
+
+### Organization Details
+![Organization Details](docs/organization.png)
+*Detailed view of an organization with donation functionality*
 
 ## Features
 
