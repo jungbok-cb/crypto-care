@@ -1,27 +1,23 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png">
-    <img alt="OnchainKit logo vibes" src="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png" width="auto">
-  </picture>
-</p>
+<h1 align="center">Crypto Care</h1>
 
-# Onchain App Template
+<p align="center">A decentralized donation platform that enables users to support charitable organizations using cryptocurrency.</p>
 
-An Onchain App Template build with [OnchainKit](https://onchainkit.xyz), and ready to be deployed to Vercel.
+## Overview
 
-Play with it live on https://onchain-app-template.vercel.app
+Crypto Care is a web3 application built with OnchainKit that allows users to make cryptocurrency donations to various charitable organizations. The platform can support organizations like Red Cross, UNICEF, and others, enabling transparent and direct crypto donations.
 
-Have fun! ⛵️
+## Features
 
-<br />
+- Connect cryptocurrency wallets (Coinbase Wallet, MetaMask, Rainbow)
+- View charitable organization profiles and their causes
+- Make direct cryptocurrency donations
+- Track donation transactions and balances
+- Built on Base blockchain for lower transaction fees
+- Real-time transaction status updates
 
 ## Setup
 
-To ensure all components work seamlessly, set the following environment variables in your `.env` file using `.env.local.example` as a reference.
-
-You can find the API key on the [Coinbase Developer Portal's OnchainKit page](https://portal.cdp.coinbase.com/products/onchainkit). If you don't have an account, you will need to create one. 
-
-You can find your Wallet Connector project ID at [Wallet Connect](https://cloud.walletconnect.com).
+To run this project locally, you'll need to set up the following environment variables in your `.env` file:
 
 ```sh
 # See https://portal.cdp.coinbase.com/products/onchainkit
@@ -30,35 +26,34 @@ NEXT_PUBLIC_CDP_API_KEY="GET_FROM_COINBASE_DEVELOPER_PLATFORM"
 # See https://cloud.walletconnect.com
 NEXT_PUBLIC_WC_PROJECT_ID="GET_FROM_WALLET_CONNECT"
 ```
-<br />
 
-## Locally run
+## Local Development
 
 ```sh
-# Install bun in case you don't have it
+# Install bun if you haven't already
 curl -fsSL https://bun.sh/install | bash
 
-# Install packages
-bun i
+# Install dependencies
+bun install
 
-# Run Next app
+# Start the development server
 bun run dev
 ```
-<br />
 
-## Resources
+## Technology Stack
 
-- [OnchainKit documentation](https://onchainkit.xyz)
-- We use the [OnchainKit Early Adopter](https://github.com/neodaoist/onchainkit-early-adopter) contract written by neodaoist [[X]](https://x.com/neodaoist)
+- Next.js for the frontend framework
+- TailwindCSS for styling
+- Wagmi for Ethereum interactions
+- OnchainKit for wallet connections
+- Base blockchain (Coinbase's L2)
+- RainbowKit for wallet management
+- Framer Motion for animations
 
-<br />
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Need more help?
-
-If you have any questions or need help, feel free to reach out to us on [Discord](https://discord.gg/8gW3h6w5) 
-or open a [Github issue](https://github.com/coinbase/onchainkit/issues) or DMs us 
-on X at [@onchainkit](https://x.com/onchainkit), [@zizzamia](https://x.com/zizzamia), [@fkpxls](https://x.com/fkpxls).
