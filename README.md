@@ -1,4 +1,4 @@
-![image (6)](https://github.com/user-attachments/assets/0158dcdc-3507-4834-8ba3-5ea97eaf9ad0)<h1 align="center">Crypto Care</h1>
+<h1 align="center">Crypto Care</h1>
 
 <p align="center">A decentralized donation platform that enables users to support charitable organizations using cryptocurrency.</p>
 
