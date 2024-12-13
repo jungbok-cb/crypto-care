@@ -25,11 +25,6 @@ Crypto Care is a web3 application built with OnchainKit that allows users to mak
 - Built on Base blockchain for lower transaction fees
 - Real-time transaction status updates
 
-![image (6)](https://github.com/user-attachments/assets/744beaa6-2161-4b9a-a14c-d746f2954b2d)
-
-![Screenshot 2024-12-12 at 9 44 58 PM](https://github.com/user-attachments/assets/2194dfb1-e7b6-4515-b72c-0ddc59eb8945)
-
-
 ## Setup
 
 To run this project locally, you'll need to set up the following environment variables in your `.env` file:
