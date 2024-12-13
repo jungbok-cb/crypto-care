@@ -1,4 +1,4 @@
-<h1 align="center">Crypto Care</h1>
+![image (6)](https://github.com/user-attachments/assets/0158dcdc-3507-4834-8ba3-5ea97eaf9ad0)<h1 align="center">Crypto Care</h1>
 
 <p align="center">A decentralized donation platform that enables users to support charitable organizations using cryptocurrency.</p>
 
@@ -15,9 +15,9 @@ Crypto Care is a web3 application built with OnchainKit that allows users to mak
 - Built on Base blockchain for lower transaction fees
 - Real-time transaction status updates
 
-![Uploading image.png…]()
+![image (6)](https://github.com/user-attachments/assets/744beaa6-2161-4b9a-a14c-d746f2954b2d)
 
-![Uploading Screenshot 2024-12-12 at 9.44.58 PM.png…]()
+![Screenshot 2024-12-12 at 9 44 58 PM](https://github.com/user-attachments/assets/2194dfb1-e7b6-4515-b72c-0ddc59eb8945)
 
 
 ## Setup
